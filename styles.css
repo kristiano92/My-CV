@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('./img/bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+header section {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+header img {
+  vertical-align: middle;
+  width: 150px;
+
+  border-radius: 50%;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+main {
+  max-width: 1140px;
+}
+
+.course {
+}
+
+.course .title {
+}
+
+.course .descrition {
+}
+
+.school span {
+  color: #A7B8BF;
+}
+
+footer {
+ padding: 1em;
+}
