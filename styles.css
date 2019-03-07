@@ -7,6 +7,15 @@ body {
   margin: 0;
 }
 
+a {
+  color: #E0FFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
 article {
   padding:0 1em;
 }
@@ -90,7 +99,7 @@ main section:not(:last-child) {
   max-width: 50%;
 }
 
-.skills .column ul {
+.skills .column ul, .job-description {
   list-style-type: none;
   padding: 0
 }
@@ -111,11 +120,21 @@ main section:not(:last-child) {
     padding-top: 1em;
 }
 
-.school span {
+.school span, .job-title span {
   color: #4682B4;
   text-decoration: underline;
 }
 
+.job-description li::before {
+  content: "✔";
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  color: #4682B4;
+}
+
 footer {
- padding: 1em;
+ padding: 1em 1.5em;
+ background-color: #4682B4;
+ color: white;
+ text-align: right;
 }
