@@ -16,6 +16,19 @@ a:hover {
   opacity: 0.5;
 }
 
+a .fab {
+  color: white;
+}
+
+.fab {
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
 article {
   padding:0 1em;
 }
@@ -52,7 +65,7 @@ header img {
   vertical-align: middle;
   width: 150px;
 
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 h1 {
