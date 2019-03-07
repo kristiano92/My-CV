@@ -11,7 +11,12 @@ article {
   padding:0 1em;
 }
 
-section{
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section {
   margin: 1em;
   padding: 1em;
 }
@@ -50,13 +55,29 @@ main {
   max-width: 1140px;
 }
 
+main section:not(:last-child) {
+  border-bottom: 1px solid #4682B4;
+}
+
 .course {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .course .title {
+  color: #4682B4;
+  font-weight: bold;
+  flex: 0 0 33.3%;
+  max-width: 33.3%
 }
 
 .course .descrition {
+  flex: 0 0 66.6%;
+  max-width: 66.6%
+}
+
+.course .descrition p {
+  padding-left: 1em;
 }
 
 .school span {
