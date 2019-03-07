@@ -107,8 +107,13 @@ main section:not(:last-child) {
   padding-left: 0.5em;
 }
 
+.school {
+    padding-top: 1em;
+}
+
 .school span {
-  color: #A7B8BF;
+  color: #4682B4;
+  text-decoration: underline;
 }
 
 footer {
